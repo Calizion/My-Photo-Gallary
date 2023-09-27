@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  text-align: center;
+  background-color: black;
+  color: antiquewhite;
+  padding: 25px;
+  font-size: 30px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-radius: 15px;
+  transition: 0.5em;
+}
+
+.gallary {
+  width: 100%;
+  border: 10px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  row-gap: 5px;
+  column-gap: 5px;
+}
+img {
+  width: 30%;
+  padding: 15px;
+  border: 5px solid red;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 15px;
+}
